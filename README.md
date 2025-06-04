@@ -1,4 +1,4 @@
-# Recycling Route Optimizer 🚛♻️
+# Recycling Route Optimizer
 
 A comprehensive Streamlit application for optimizing waste collection routes using advanced Vehicle Routing Problem (VRP) algorithms.
 
@@ -15,7 +15,7 @@ This application implements state-of-the-art routing optimization techniques spe
 - **Performance Analytics**: Comprehensive efficiency metrics and visualizations
 - **Weekly Planning**: Optimizes routes across multiple days
 
-## 🔬 Algorithm Implementation
+## Algorithm Implementation
 
 ### Vehicle Routing Problem (VRP) Methodology
 
@@ -70,7 +70,7 @@ recycling-route-optimizer/
     └── user_guide.md              # Application usage guide
 ```
 
-## 📊 Dataset Structure
+## Dataset Structure
 
 ### weekly_routes.csv
 Contains daily collection schedule with location coordinates and material information.
@@ -135,7 +135,7 @@ Specifies revenue per kilogram for different material types.
 5. **Access the application**
    Open your browser to `http://localhost:8501`
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Basic Operation
 
@@ -191,7 +191,7 @@ Main optimization engine implementing VRP algorithms.
 - **Medium datasets (50-200 locations)**: < 30 seconds processing
 - **Large datasets (> 200 locations)**: Consider batch processing
 
-## 📈 Business Applications
+## Business Applications
 
 ### Waste Management Companies
 - Optimize daily collection routes
@@ -257,7 +257,7 @@ efficiency = revenue / distance  # Current formula
 - Clarke, G., & Wright, J. W. (1964). Scheduling of vehicles from a central depot to a number of delivery points. *Operations Research*, 12(4), 568-581.
 - Lin, S., & Kernighan, B. W. (1973). An effective heuristic algorithm for the traveling-salesman problem. *Operations Research*, 21(2), 498-516.
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Setup
 1. Fork the repository
@@ -276,7 +276,7 @@ efficiency = revenue / distance  # Current formula
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support & Troubleshooting
+## Support & Troubleshooting
 
 ### Common Issues
 
@@ -289,9 +289,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Issue**: Slow performance with large datasets
 **Solution**: Reduce optimization iterations or filter data by date range
 
-### Contact Information
-For technical support or feature requests, please create an issue in the project repository.
 
----
 
-**Built with ❤️ for sustainable waste management and environmental optimization**
+**Built with reverence for sustainable waste management and environmental optimization**
