@@ -2,7 +2,7 @@
 
 A comprehensive Streamlit application for optimizing waste collection routes using advanced Vehicle Routing Problem (VRP) algorithms.
 
-## 📋 Project Overview
+## Project Overview
 
 This application implements state-of-the-art routing optimization techniques specifically designed for recycling and waste collection operations. The system uses heuristic algorithms to minimize travel distance while maximizing collection efficiency and revenue.
 
@@ -221,7 +221,7 @@ The algorithms have been validated using:
 - **Time savings**: 20-40% reduction in collection time
 - **Cost efficiency**: 10-25% operational cost reduction
 
-## 🛠️ Customization Options
+## Customization Options
 
 ### Algorithm Parameters
 ```python
@@ -272,11 +272,7 @@ efficiency = revenue / distance  # Current formula
 - Maintain test coverage above 80%
 - Use type hints for function parameters and returns
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support & Troubleshooting
 
 ### Common Issues
 
