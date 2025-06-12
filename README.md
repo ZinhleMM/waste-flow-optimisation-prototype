@@ -54,7 +54,7 @@ def calculate_distance(self, lat1, lon1, lat2, lon2):
     """
 ```
 
-## 📁 File Architecture
+## File Architecture
 
 ```
 recycling-route-optimizer/
@@ -101,7 +101,7 @@ Specifies revenue per kilogram for different material types.
 | Material | String | Material type identifier |
 | Price_per_kg | Float | Revenue per kilogram (ZAR) |
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -208,7 +208,7 @@ Main optimization engine implementing VRP algorithms.
 - Reduce environmental impact through shorter routes
 - Improve resource allocation and planning
 
-## 🔬 Algorithm Validation
+## Algorithm Validation
 
 ### Testing Methodology
 The algorithms have been validated using:
@@ -230,9 +230,9 @@ max_iterations = 1000  # 2-Opt iterations
 optimization_level = "Advanced"  # Algorithm selection
 ```
 
-### Visualization Settings
+### Visualisation Settings
 ```python
-# Customize map appearance
+# Customise map appearance
 zoom_start = 12  # Initial map zoom level
 marker_colors = {'depot': 'red', 'collection': 'green'}
 route_color = 'blue'
@@ -245,7 +245,7 @@ efficiency = revenue / distance  # Current formula
 # Alternative: efficiency = (revenue - costs) / time
 ```
 
-## 📚 References & Citations
+## References & Citations
 
 ### Academic Sources
 1. Firdaus, A. Z. (2023). Solving Vehicle Routing Problems with Python & Heuristics Algorithm. *Medium*. Retrieved from https://medium.com/@writingforara/solving-vehicle-routing-problems-with-python-heuristics-algorithm-2cc57fe7079c
