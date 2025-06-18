@@ -1,10 +1,10 @@
-# Recycling Route Optimizer
+# Recycling Route Optimiser
 
-A comprehensive Streamlit application for optimizing waste collection routes using advanced Vehicle Routing Problem (VRP) algorithms.
+A comprehensive Streamlit application for optimising waste collection routes using advanced Vehicle Routing Problem (VRP) algorithms.
 
 ## Project Overview
 
-This application implements state-of-the-art routing optimization techniques specifically designed for recycling and waste collection operations. The system uses heuristic algorithms to minimize travel distance while maximizing collection efficiency and revenue.
+This application implements state-of-the-art routing optimisation techniques specifically designed for recycling and waste collection operations. The system uses heuristic algorithms to minimise travel distance while maximising collection efficiency and revenue.
 
 ### Key Features
 
@@ -27,21 +27,21 @@ The application implements algorithms based on academic research:
 
 ### Core Algorithms
 
-#### 1. Nearest Neighbor Algorithm
+#### 1. Nearest Neighbour Algorithm
 ```python
 def nearest_neighbor_tsp(self, distance_matrix, start_idx=0):
     """
-    Constructs initial route by iteratively selecting nearest unvisited location
+    Constructs initial route by iteratively selecting the nearest unvisited location
     Time Complexity: O(n²)
     """
 ```
 
-#### 2. 2-Opt Local Search Optimization
+#### 2. 2-Opt Local Search Optimisation
 ```python
 def two_opt_improvement(self, route, distance_matrix, max_iterations=1000):
     """
-    Improves initial solution by swapping route segments
-    Reduces total distance through local optimization
+    Improves the initial solution by swapping route segments
+    Reduces total distance through local optimisation
     """
 ```
 
@@ -73,7 +73,7 @@ recycling-route-optimizer/
 ## Dataset Structure
 
 ### weekly_routes.csv
-Contains daily collection schedule with location coordinates and material information.
+Contains a daily collection schedule with location coordinates and material information.
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -85,7 +85,7 @@ Contains daily collection schedule with location coordinates and material inform
 | Estimated_Weight_kg | Integer | Expected collection weight |
 
 ### depot_locations.csv
-Defines available depot locations for route optimization.
+Defines available depot locations for route optimisation.
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -139,14 +139,14 @@ Specifies revenue per kilogram for different material types.
 
 ### Basic Operation
 
-1. **Select Days**: Choose which days to optimize in the sidebar
-2. **Choose Optimization Level**: Select algorithm complexity
+1. **Select Days**: Choose which days to optimise in the sidebar
+2. **Choose Optimisation Level**: Select algorithm complexity
 3. **View Results**: Examine optimized routes on interactive maps
 4. **Analyze Performance**: Review efficiency metrics and analytics
 
 ### Advanced Features
 
-#### Route Visualization
+#### Route Visualisation
 - **Red markers**: Depot locations
 - **Green markers**: Collection points
 - **Blue lines**: Optimized route paths
@@ -168,14 +168,14 @@ Specifies revenue per kilogram for different material types.
 ### Core Classes
 
 #### RouteOptimizer
-Main optimization engine implementing VRP algorithms.
+Main optimisation engine implementing VRP algorithms.
 
 **Key Methods:**
 - `calculate_distance()`: Haversine distance calculation
 - `create_distance_matrix()`: Builds n×n distance matrix
 - `nearest_neighbor_tsp()`: Initial route construction
 - `two_opt_improvement()`: Route optimization
-- `optimize_weekly_routes()`: Main optimization workflow
+- `optimize_weekly_routes()`: Main optimisation workflow
 
 ### Algorithm Complexity
 
@@ -194,14 +194,14 @@ Main optimization engine implementing VRP algorithms.
 ## Business Applications
 
 ### Waste Management Companies
-- Optimize daily collection routes
+- Optimise daily collection routes
 - Reduce fuel costs and vehicle wear
 - Improve customer service through reliable scheduling
 
 ### Recycling Operations
-- Maximize revenue through efficient material collection
+- Maximise revenue through efficient material collection
 - Balance collection costs with material values
-- Plan optimal depot utilization
+- Plan optimal depot utilisation
 
 ### Municipal Services
 - Enhance public waste collection efficiency
@@ -221,7 +221,7 @@ The algorithms have been validated using:
 - **Time savings**: 20-40% reduction in collection time
 - **Cost efficiency**: 10-25% operational cost reduction
 
-## Customization Options
+## Customisation Options
 
 ### Algorithm Parameters
 ```python
@@ -255,36 +255,6 @@ efficiency = revenue / distance  # Current formula
 ### Technical References
 - Dantzig, G. B., & Ramser, J. H. (1959). The truck dispatching problem. *Management Science*, 6(1), 80-91.
 - Clarke, G., & Wright, J. W. (1964). Scheduling of vehicles from a central depot to a number of delivery points. *Operations Research*, 12(4), 568-581.
-- Lin, S., & Kernighan, B. W. (1973). An effective heuristic algorithm for the traveling-salesman problem. *Operations Research*, 21(2), 498-516.
+- Lin, S., & Kernighan, B. W. (1973). An effective heuristic algorithm for the travelling-salesman problem. *Operations Research*, 21(2), 498-516.
 
-## Contributing
-
-### Development Setup
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature-name`
-3. Implement changes with proper documentation
-4. Add unit tests for new functionality
-5. Submit pull request with detailed description
-
-### Code Standards
-- Follow PEP 8 Python style guidelines
-- Include docstrings for all functions and classes
-- Maintain test coverage above 80%
-- Use type hints for function parameters and returns
-
-
-
-### Common Issues
-
-**Issue**: "Data file not found" error
-**Solution**: Ensure all CSV files are in the same directory as the Python script
-
-**Issue**: Map not displaying
-**Solution**: Check internet connection for Folium tile loading
-
-**Issue**: Slow performance with large datasets
-**Solution**: Reduce optimization iterations or filter data by date range
-
-
-
-**Built with reverence for sustainable waste management and environmental optimization**
+**Built with reverence for sustainable waste management and environmental optimisation**
