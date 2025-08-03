@@ -163,7 +163,7 @@ Specifies revenue per kilogram for different material types.
 - **Efficiency Analysis**: Scatter plot correlating distance, revenue, and weight
 - **Material Distribution**: Pie chart showing revenue by material type
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Core Classes
 
